@@ -1,0 +1,82 @@
+body 
+{
+	background: linear-gradient(to right,red,yellow);
+}
+
+
+
+.top
+{
+	display: none;
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+	font-size: 80px;
+	position: relative;
+	background-color: black;
+	color: white;
+}
+
+
+.bottom1
+{
+	background-color: grey;
+	position: relative;
+	color: white;
+}
+
+
+h2
+{
+	background: rgba(255,255,255,.5);
+	font: italic small-caps normal 30px Times;
+	border-style: solid;
+	border-width: 0px 0px 5px 0px;
+	width: 550px;
+}
+
+
+
+.bottom1,.bottom2,.inner,.inner1,.inner2,.inner3,.inner4,.inner5,.inner6,.inner7,.inner8
+{	
+	display: none;
+}
+
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
