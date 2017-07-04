@@ -17,11 +17,43 @@ body
 }
 
 
+a
+{
+	color: white;
+}
+a:visited
+{
+	color: white;
+}
+a:hover
+{
+	color: green;
+
+}
+#pdf
+{
+	display: inline-block;
+	margin: 0px;
+	border-style: none;
+	border-width: 0px;
+	text-decoration: none;
+	background-color: red;
+	padding: 12px 12px; 
+}
+#pdf1
+{
+	position: relative;
+	display: inline-block;
+	float:right;
+}
+
+
 .bottom1
 {
 	background-color: grey;
 	position: relative;
 	color: white;
+	font-size: 20px;
 }
 
 
