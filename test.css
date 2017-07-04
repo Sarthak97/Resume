@@ -34,7 +34,31 @@ h2
 	width: 550px;
 }
 
+table,th,td
+{
+	border-collapse: collapse;
+	border-style: solid;
+	border-color: black;
+	font: normal small-caps normal 20px Times;
+	text-align: center;
+	vertical-align: middle;
+	height: 50px;
+}
 
+
+table
+{
+	width: 100%;
+}
+
+
+ul
+{
+	list-style: circle;
+	padding-left: 350px;
+	text-align: left;
+	font: normal small-caps normal 20px Times;
+}
 
 .bottom1,.bottom2,.inner,.inner1,.inner2,.inner3,.inner4,.inner5,.inner6,.inner7,.inner8
 {	
